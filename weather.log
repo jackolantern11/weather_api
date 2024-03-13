@@ -1,0 +1,47 @@
+2024-03-10 11:28:20,890 INFO     Weather Script Starting!
+2024-03-10 11:28:22,346 INFO     Request to https://api.weather.gov/points/36.35,-94.28 Successful! Status Code: 200
+2024-03-10 11:28:22,525 INFO     Request to https://api.weather.gov/gridpoints/TSA/103,113/forecast/hourly Successful! Status Code: 200
+2024-03-10 11:28:22,529 INFO     Last Updated: 2024-03-10 15:50:37+00:00
+2024-03-10 11:28:22,529 INFO     Current Time: 2024-03-10 16:28:22.528957+00:00
+2024-03-10 11:28:22,529 INFO     Minutes since last update: 37
+2024-03-10 11:28:22,547 INFO     Min Temperature: 42 - Max Temperature: 61
+2024-03-10 11:28:22,547 INFO     Temperature close to freezing. Drip faucets!
+2024-03-10 11:28:22,890 INFO     Discord Post Result: 204
+2024-03-10 11:28:22,910 INFO     Request to discord Successful! Status Code: 204
+2024-03-10 11:28:22,923 INFO     Weather Script Finished!
+2024-03-10 11:30:02,027 INFO     Weather Script Starting!
+2024-03-10 11:30:02,515 INFO     Request to https://api.weather.gov/points/36.35,-94.28 Successful! Status Code: 200
+2024-03-10 11:30:02,660 INFO     Request to https://api.weather.gov/gridpoints/TSA/103,113/forecast/hourly Successful! Status Code: 200
+2024-03-10 11:30:02,662 INFO     Last Updated: 2024-03-10 15:50:37+00:00
+2024-03-10 11:30:02,662 INFO     Current Time: 2024-03-10 16:30:02.662078+00:00
+2024-03-10 11:30:02,662 INFO     Minutes Since Last Update: 39
+2024-03-10 11:30:02,676 INFO     Min Temperature: 42 - Max Temperature: 61
+2024-03-10 11:30:02,676 INFO     Temperature Close to Freezing. Drip faucets!
+2024-03-10 11:30:04,239 INFO     Discord Post Result: 204
+2024-03-10 11:30:04,239 INFO     Request to discord Successful! Status Code: 204
+2024-03-10 11:30:04,247 INFO     Weather Script Finished!
+2024-03-10 11:31:31,052 INFO     Weather Script Starting!
+2024-03-10 11:31:31,591 INFO     Request to https://api.weather.gov/points/36.35,-94.28 Successful! Status Code: 200
+2024-03-10 11:31:31,700 INFO     Request to https://api.weather.gov/gridpoints/TSA/103,113/forecast/hourly Successful! Status Code: 200
+2024-03-10 11:31:31,701 INFO     Last Updated: 2024-03-10 15:50:37+00:00
+2024-03-10 11:31:31,701 INFO     Current Time: 2024-03-10 16:31:31.701516+00:00
+2024-03-10 11:31:31,701 INFO     Minutes Since Last Update: 40
+2024-03-10 11:31:31,715 INFO     Min Temperature: 42 - Max Temperature: 61
+2024-03-10 11:31:31,715 INFO     Temperature Close to Freezing. Drip faucets!
+2024-03-10 11:31:31,944 INFO     Discord Post Result: 204
+2024-03-10 11:31:31,945 INFO     Request to discord Successful! Status Code: 204
+2024-03-10 11:31:31,952 INFO     Weather Script Finished!
+2024-03-11 20:10:26,436 INFO     Weather Script Starting!
+2024-03-11 20:10:27,926 INFO     Request to https://api.weather.gov/points/36.35,-94.28 Successful! Status Code: 200
+2024-03-11 20:10:28,290 WARNING  Request to https://api.weather.gov/gridpoints/TSA/103,113/forecast/hourly Failed! Status Code: 500
+2024-03-11 20:10:34,022 WARNING  Request to https://api.weather.gov/gridpoints/TSA/103,113/forecast/hourly Failed! Status Code: 500
+2024-03-11 20:10:39,739 WARNING  Request to https://api.weather.gov/gridpoints/TSA/103,113/forecast/hourly Failed! Status Code: 500
+2024-03-11 20:11:06,564 INFO     Weather Script Starting!
+2024-03-11 20:11:06,949 INFO     Request to https://api.weather.gov/points/36.35,-94.28 Successful! Status Code: 200
+2024-03-11 20:11:07,611 INFO     Request to https://api.weather.gov/gridpoints/TSA/103,113/forecast/hourly Successful! Status Code: 200
+2024-03-11 20:11:07,613 INFO     Last Updated: 2024-03-11 23:50:53+00:00
+2024-03-11 20:11:07,614 INFO     Current Time: 2024-03-12 01:11:07.613917+00:00
+2024-03-11 20:11:07,614 INFO     Minutes Since Last Update: 80
+2024-03-11 20:11:07,629 INFO     Min Temperature: 45 - Max Temperature: 57
+2024-03-11 20:11:07,629 INFO     Temperature Range Okay... Will Not Send Notification.
+2024-03-11 20:11:07,631 INFO     Weather Script Finished!
