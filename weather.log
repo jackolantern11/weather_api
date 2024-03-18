@@ -45,3 +45,8 @@
 2024-03-11 20:11:07,629 INFO     Min Temperature: 45 - Max Temperature: 57
 2024-03-11 20:11:07,629 INFO     Temperature Range Okay... Will Not Send Notification.
 2024-03-11 20:11:07,631 INFO     Weather Script Finished!
+2024-03-14 20:04:00,662 WARNING  Request to stuff Failed! Status Code: 500
+2024-03-14 20:08:07,750 INFO     Request to https://example.com Successful! Status Code: 200
+2024-03-14 20:08:07,751 INFO     Request to https://example.com Successful! Status Code: 201
+2024-03-14 20:08:07,751 INFO     Request to https://example.com Successful! Status Code: 204
+2024-03-14 20:08:07,751 WARNING  Request to https://example.com Failed! Status Code: 404

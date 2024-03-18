@@ -50,7 +50,7 @@ def send_discord_notification(msg: str) -> requests.request:
     
     # Retry to send notification on failure
     # Send Notification (regardless of temperature)
-    discord = Discord(url="https://discord.com/api/webhooks/1216423056499802162/o-OE5fN2AK7OAmB0CQBlfOpEYDPMvJbGuR5ngsKEyEJw26knRihster2cmMCS5-eapOJ")
+    discord = Discord(url="https://discord.com/api/webhooks/1")
     response = discord.post(content=f"{msg}")
     logger.info(f"Discord Post Result: {response.status_code}")
 
