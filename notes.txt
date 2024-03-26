@@ -1,0 +1,31 @@
+Application Set-up
+
+Logging set up - configurable
+
+Location set up - configurable
+
+API Requests: weather service, discord
+
+Logic which acts on the results of returned API 
+
+Set up testing / API mocking for learning
+
+Use the API function in a flask web app - make the class flexible enough to do that?
+
+
+----------------------
+
+Class for NOAA API (Could be used in other code in the future...)
+* Funciton for getting point information (response info)
+* Function for getting forecast information (response info)
+
+Class for Discord Interactions
+* Function for sending notification to webhook
+
+Script Logic
+* Keep exceptions, logging, handling logic from returns as seperate simple python script 
+
+testing
+* Tests for NOAA API
+* Tests for Discord webhook
+* Tests for Script functions??
