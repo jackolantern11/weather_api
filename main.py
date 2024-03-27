@@ -3,17 +3,17 @@ from weather_api.api_wrapper import GridPoint
 from retry import retry
 
 # Set Logger:
-logger = logging.getLogger(__name__)
-logger.setLevel(logging.DEBUG)
+logger = logging.getLogger('weather')
+logger.setLevel(logging.INFO)
 
 # create console & stream handler and set level to debug
 ch = logging.StreamHandler()
-ch.setLevel(logging.DEBUG)
+ch.setLevel(logging.INFO)
 fh = logging.FileHandler(filename='weather.log')
 fh.setLevel(logging.INFO)
 
 # create formatter
-formatter = logging.Formatter('%(asctime)s %(levelname)-8s %(message)s')
+formatter = logging.Formatter('%(asctime)s - %(filename)s - %(lineno)d - %(levelname)-8s - %(message)s')
 
 # add formatter to ch
 ch.setFormatter(formatter)
