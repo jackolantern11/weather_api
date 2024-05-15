@@ -1,32 +1,7 @@
-2024-03-26 19:33:32,395 - weather.module - INFO     - Fetching Point from API Using Lat=36.35, Lon=-94.28
-2024-03-26 19:33:32,565 - weather.module - INFO     - Request Response: <Response [200]>
-2024-03-26 19:33:32,567 - weather.module - INFO     - Fetching Grid Point Data for Grid ID: TSA
-2024-03-26 19:33:32,692 - weather.module - INFO     - Request Response: <Response [200]>
-2024-03-26 19:33:32,732 - weather - INFO     - Minutes since last update 42
-2024-03-26 19:33:32,876 - weather - INFO     - Min Temperature: 28 - Max Temperature: 41
-2024-03-26 19:33:32,876 - weather - INFO     - Temperature Close to Freezing. Drip faucets!
-2024-03-26 19:33:33,083 - weather - INFO     - Discord Post Result: 204
-2024-03-26 19:40:08,767 - api_wrapper.py - INFO     - Fetching Point from API Using Lat=36.35, Lon=-94.28
-2024-03-26 19:40:09,275 - api_wrapper.py - INFO     - Request Response: <Response [200]>
-2024-03-26 19:40:09,277 - api_wrapper.py - INFO     - Fetching Grid Point Data for Grid ID: TSA
-2024-03-26 19:40:09,908 - api_wrapper.py - INFO     - Request Response: <Response [200]>
-2024-03-26 19:40:09,978 - main.py - INFO     - Minutes since last update 49
-2024-03-26 19:40:10,264 - main.py - INFO     - Min Temperature: 28 - Max Temperature: 41
-2024-03-26 19:40:10,264 - main.py - INFO     - Temperature Close to Freezing. Drip faucets!
-2024-03-26 19:40:10,501 - main.py - INFO     - Discord Post Result: 204
-2024-03-26 19:40:28,811 - api_wrapper.py - 58 - INFO     - Fetching Point from API Using Lat=36.35, Lon=-94.28
-2024-03-26 19:40:29,012 - api_wrapper.py - 61 - INFO     - Request Response: <Response [200]>
-2024-03-26 19:40:29,016 - api_wrapper.py - 114 - INFO     - Fetching Grid Point Data for Grid ID: TSA
-2024-03-26 19:40:29,241 - api_wrapper.py - 119 - INFO     - Request Response: <Response [200]>
-2024-03-26 19:40:29,295 - main.py - 48 - INFO     - Minutes since last update 49
-2024-03-26 19:40:29,468 - main.py - 61 - INFO     - Min Temperature: 28 - Max Temperature: 41
-2024-03-26 19:40:29,468 - main.py - 65 - INFO     - Temperature Close to Freezing. Drip faucets!
-2024-03-26 19:40:29,700 - main.py - 36 - INFO     - Discord Post Result: 204
-2024-03-26 19:40:49,022 - api_wrapper.py	 - 58 - INFO     - Fetching Point from API Using Lat=36.35, Lon=-94.28
-2024-03-26 19:40:49,245 - api_wrapper.py	 - 61 - INFO     - Request Response: <Response [200]>
-2024-03-26 19:40:49,249 - api_wrapper.py	 - 114 - INFO     - Fetching Grid Point Data for Grid ID: TSA
-2024-03-26 19:40:49,450 - api_wrapper.py	 - 119 - INFO     - Request Response: <Response [200]>
-2024-03-26 19:40:49,485 - main.py	 - 48 - INFO     - Minutes since last update 50
-2024-03-26 19:40:49,646 - main.py	 - 61 - INFO     - Min Temperature: 28 - Max Temperature: 41
-2024-03-26 19:40:49,647 - main.py	 - 65 - INFO     - Temperature Close to Freezing. Drip faucets!
-2024-03-26 19:40:50,134 - main.py	 - 36 - INFO     - Discord Post Result: 204
+2024-05-13 20:25:19,750 - api_wrapper.py - 64 - INFO     - Fetching Point from API Using Lat=36.35, Lon=-94.28
+2024-05-13 20:25:19,943 - api_wrapper.py - 67 - INFO     - Request Response: <Response [200]>
+2024-05-13 20:25:19,944 - api_wrapper.py - 126 - INFO     - Fetching Grid Point Data for Grid ID: TSA
+2024-05-13 20:25:20,068 - api_wrapper.py - 131 - INFO     - Request Response: <Response [200]>
+2024-05-13 20:25:20,111 - main.py - 48 - INFO     - Minutes since last update 34
+2024-05-13 20:25:20,317 - main.py - 61 - INFO     - Min Temperature: 57 - Max Temperature: 64
+2024-05-13 20:25:20,317 - main.py - 69 - INFO     - Temperature Range Okay... Will Not Send Notification.

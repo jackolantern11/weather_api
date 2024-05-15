@@ -22,10 +22,10 @@ class Config:
         return self.base_url
     
     def get_point_url(self) -> str:
-        return self.base_url + self.point_url
+        return self.get_base_url() + self.point_url
     
     def get_forecast_url(self) -> str:
-        return self.base_url + self.hourly_forecast_url
+        return self.get_base_url() + self.hourly_forecast_url
     
 class Point:
     def __init__(self, 
