@@ -5,3 +5,16 @@
 2024-05-13 20:25:20,111 - main.py - 48 - INFO     - Minutes since last update 34
 2024-05-13 20:25:20,317 - main.py - 61 - INFO     - Min Temperature: 57 - Max Temperature: 64
 2024-05-13 20:25:20,317 - main.py - 69 - INFO     - Temperature Range Okay... Will Not Send Notification.
+2024-05-29 20:36:16,047 - api_wrapper.py - 165 - INFO     - Fetch Point: lat = 36.35, lon = -94.28 - point_response = <Response [200]>
+2024-05-29 20:36:16,662 - api_wrapper.py - 228 - INFO     - hourly_forecast_response = <Response [200]>
+2024-05-29 20:36:17,068 - api_wrapper.py - 238 - INFO     - textual_forecast_response = <Response [200]>
+2024-05-29 20:36:17,079 - main.py - 63 - INFO     - min_temp = 60 - max_temp = 72
+2024-05-29 20:36:17,079 - main.py - 71 - INFO     - Temperature Range Okay... Will Not Send Notification.
+2025-02-09 18:56:11,626 - api_wrapper.py - 175 - INFO     - Fetch Point: lat = 36.35, lon = -94.28 - point_response = <Response [200]>
+2025-02-09 19:29:52,148 - api_wrapper.py - 175 - INFO     - Fetch Point: lat = 36.35, lon = -94.28 - point_response = <Response [200]>
+2025-02-09 19:30:53,249 - api_wrapper.py - 175 - INFO     - Fetch Point: lat = 36.35, lon = -94.28 - point_response = <Response [200]>
+2025-02-09 19:30:53,997 - api_wrapper.py - 310 - INFO     - hourly_forecast_response = <Response [200]>
+2025-02-09 19:30:54,660 - api_wrapper.py - 320 - INFO     - textual_forecast_response = <Response [200]>
+2025-02-09 19:30:54,674 - main.py - 63 - INFO     - min_temp = 29 - max_temp = 37
+2025-02-09 19:30:54,674 - main.py - 67 - INFO     - Temperature Close to Freezing. Drip faucets!
+2025-02-09 19:30:55,546 - main.py - 36 - INFO     - Discord Post Result: 204
