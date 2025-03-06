@@ -1,5 +1,5 @@
 import logging
-from weather_api.api_wrapper import GridPoint
+from weather_api.api_wrapper import Point, GridPoint
 from retry import retry
 
 # Set Logger:
@@ -39,31 +39,33 @@ def send_discord_notification(msg: str):
 
 
 def check_freezing_temps(**kwargs):
+
+    # Define Point
+    point = Point.create_from_api(lat=36.35, lon=-94.28)
+    gridpoint = GridPoint.create_from_point(point=point)
     
     # Get twelve hour forecast
-    twelve_hr_forecast = GridPoint.create_from_api(36.35, -94.28).get_reduced_forecast(12)
+    twelve_hr_forecast = gridpoint.get_hourly_forecast_periods_df().head(12)
 
-    # Validate Data in Recently Updated:
-    minutes_since_last_update = twelve_hr_forecast.last_updated_from_current_time()
-    logger.info(f"Minutes since last update {minutes_since_last_update}")
+    # # Validate Data in Recently Updated:
+    # minutes_since_last_update = twelve_hr_forecast.last_updated_from_current_time()
+    # logger.info(f"Minutes since last update {minutes_since_last_update}")
     
-    # Exit Script if weather is too old:
-    if minutes_since_last_update > 120:
-        logger.warning(f"Weather was last updated more than 2 hours ago! Sending failure notification...")
-        send_discord_notification(f"Failed to pull recent weather data...")
-        exit()
-    
-    forecast_df = twelve_hr_forecast.get_periods_as_df()
+    # # Exit Script if weather is too old:
+    # if minutes_since_last_update > 120:
+    #     logger.warning(f"Weather was last updated more than 2 hours ago! Sending failure notification...")
+    #     send_discord_notification(f"Failed to pull recent weather data...")
+    #     exit()
 
     # Get min / max temperature
-    min_temp = forecast_df['temperature'].min()
-    max_temp = forecast_df['temperature'].max()
-    logger.info(f"Min Temperature: {min_temp} - Max Temperature: {max_temp}")
+    min_temp = twelve_hr_forecast['temperature'].min()
+    max_temp = twelve_hr_forecast['temperature'].max()
+    logger.info(f"{min_temp = } - {max_temp = }")
 
     # Determine if notification is required:
     if min_temp < 35:
         logger.info(f"Temperature Close to Freezing. Drip faucets!")
-        send_discord_notification(f"Cold temperatures tonight. Drip Faucets!\n Min: {min_temp} F \n Max: {max_temp} F")
+        send_discord_notification(f"Cold temperatures tonight. Drip Faucets!\n {min_temp = } F \n {max_temp = } F")
 
     else:
         logger.info(f"Temperature Range Okay... Will Not Send Notification.")
