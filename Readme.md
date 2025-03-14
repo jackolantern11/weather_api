@@ -1,6 +1,6 @@
 ## Weather Notifications
 
-A basic python module and script for pulling nightly temperatures for a specific lat/long location to determine if facuets should be left open over night for freezing temperatures.
+A basic python module and script for pulling data from NOAA
 
 
 ## Data Source
@@ -18,6 +18,10 @@ A basic python module and script for pulling nightly temperatures for a specific
 #### Forcast Example:
 
 Bentonville, AR is in the NWS Southern region. Within that region, it is aligned to the Tulsa, OK (TSA) WFO. This means weather warnings and forecasts are issued from the TSA WFO. However, forcasts are specific to Benton County - See [AR County Map](./archive/ar_zone.pdf).
+
+
+#### Quick Deployment for DAG
+`scp -r -P 277 weather_api/  zfreeze@rasp-pi:~/airflow/dags/weather_api`
 
 
 How are observations taken?
